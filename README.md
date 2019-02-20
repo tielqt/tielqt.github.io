@@ -1,1 +1,1 @@
-Private repo for tielqt's personal website.
+Repo for tielqt's personal website.
