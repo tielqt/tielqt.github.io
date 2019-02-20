@@ -1,0 +1,138 @@
+html {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  position: relative;
+  height: 100%;
+  background: radial-gradient(ellipse at top, #333, #131313);
+}
+
+.core {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: Open Sans, sans-serif;
+  color: white;
+}
+
+.core #headshot {
+  display: block;
+  margin: 0 auto 25px;
+}
+
+.social-links {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.social-links li {
+  display: inline-block;
+  width: 48px;
+  height: 48px;
+  border-radius: 24px;
+  background-color: #00C4FF;
+  position: relative;
+  margin: 0 10px;
+}
+
+.social-links li:hover .tooltip {
+  opacity: 1;
+  visibility: visible;
+  top: -40px;
+}
+
+.social-links a {
+  display: block;
+  width: 48px;
+  height: 48px;
+  color: white;
+  text-decoration: none;
+  font-size: 26px;
+  text-align: center;
+}
+
+.social-links i {
+  position: relative;
+  top: 48%;
+  transform: translateY(-50%);
+}
+
+.social-links #mixer a {
+  background: url(/public/img/MixerMerge_White.svg);
+  background-size: 28px 28px;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+}
+
+.social-links #kofi a {
+  font-size: 22px;
+}
+
+.social-links #schedule a {
+  font-size: 24px;
+}
+
+.tooltip {
+  position: absolute;
+  transition-duration: 0.25s;
+  transition-delay: 0.45s;
+  visibility: none;
+  opacity: 0;
+  display: inline-block;
+  border-radius: 5px;
+  padding: 5px 10px;
+  color: black;
+  background-color: white;
+  text-align: center;
+  top: -35px;
+  right: 50%;
+  width: max-content;
+  transform: translateX(50%);
+}
+
+.tooltip:after {
+  content: '';
+  display: block;
+  width: 10px;
+  height: 10px;
+  background-color: white;
+  position: absolute;
+  bottom: -5px;
+  left: 50%;
+  transform: translateX(-50%) rotate(45deg);
+  z-index: -1;
+}
+
+.sponsors-employers {
+  margin: 35px auto 15px;
+  text-align: center;
+}
+
+.sponsors-employers p {
+  letter-spacing: 0.5px;
+  margin: 0;
+}
+
+.sponsors-employers a {
+  transition-duration: 0.5s;
+  filter: grayscale(0.65);
+  opacity: 0.35;
+}
+
+.sponsors-employers a img {
+  width: 150px;
+}
+
+.sponsors-employers a:hover {
+  filter: grayscale(0);
+  opacity: 1;
+}
+
+/*# sourceMappingURL=maps/master.css.map */

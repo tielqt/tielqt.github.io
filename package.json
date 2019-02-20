@@ -1,0 +1,17 @@
+{
+  "name": "tielqt-web",
+  "version": "1.0.0",
+  "description": "tielqt's website",
+  "main": "index.html",
+  "author": "Jessica Alouette",
+  "license": "SEE LICENSE IN LICENSE.MD",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.0.0",
+    "gulp-clean": "^0.3.2",
+    "gulp-sass": "^3.1.0",
+    "gulp-sourcemaps": "^2.6.0",
+    "normalize.css": "^7.0.0",
+    "yargs": "^8.0.2"
+  }
+}
