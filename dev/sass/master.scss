@@ -1,3 +1,5 @@
+* {box-sizing: border-box;}
+
 html {
   position: relative;
   width: 100%;
@@ -20,10 +22,14 @@ body {
 
   #headshot {
     display: block;
-    margin: 0 auto 25px;
+    margin: 0 auto -35px;
   }
+
+  // #mobile-headshot {
+  //   display: none;
+  // }
 }
 
-@import 'responsive';
 @import 'social-links';
 @import 'sponsors-employers';
+@import 'responsive';

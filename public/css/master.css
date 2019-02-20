@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 html {
   position: relative;
   width: 100%;
@@ -21,14 +25,18 @@ body {
 
 .core #headshot {
   display: block;
-  margin: 0 auto 25px;
+  margin: 0 auto -35px;
 }
 
 .social-links {
   display: flex;
   list-style: none;
   margin: 0;
-  padding: 0;
+  padding: 0 40px;
+  max-width: 100%;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .social-links li {
@@ -38,7 +46,7 @@ body {
   border-radius: 24px;
   background-color: #00C4FF;
   position: relative;
-  margin: 0 10px;
+  margin: 10px 10px;
 }
 
 .social-links li:hover .tooltip {
@@ -133,6 +141,34 @@ body {
 .sponsors-employers a:hover {
   filter: grayscale(0);
   opacity: 1;
+}
+
+.core {
+  max-width: 100%;
+  width: 100%;
+}
+
+.core #headshot {
+  display: none;
+}
+
+.core #mobile-headshot {
+  display: block;
+  margin: 0 auto;
+  max-height: 260px;
+}
+
+.core .social-links {
+  margin-top: 30px;
+}
+
+@media (min-width: 600px) {
+  .core #headshot {
+    display: block;
+  }
+  .core #mobile-headshot {
+    display: none;
+  }
 }
 
 /*# sourceMappingURL=maps/master.css.map */

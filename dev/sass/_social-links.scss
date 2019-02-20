@@ -4,7 +4,12 @@ $mixer-size: 28px;
   display: flex;
   list-style: none;
   margin: 0;
-  padding: 0;
+  padding: 0 40px;
+  max-width: 100%;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+
   li {
     display: inline-block;
     width: 48px;
@@ -12,7 +17,7 @@ $mixer-size: 28px;
     border-radius: 24px;
     background-color: #00C4FF;
     position: relative;
-    margin: 0 10px;
+    margin: 10px 10px;
 
     &:hover {
       .tooltip {
