@@ -22,3 +22,16 @@
     }
   }
 }
+
+.patreon {
+  text-align: center;
+
+  a {
+    display: inline-block;
+    background-image: url("../img/become_a_patron_button.png");
+    background-repeat: no-repeat;
+    width: 150px;
+    height: 51px;
+    background-size: 100%;
+  }
+}
